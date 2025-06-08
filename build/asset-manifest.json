@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/static/js/main.c6d02138.js",
+    "static/media/uni-chat.png": "/static/media/uni-chat.6955ae78c871e6d897cb.png",
+    "static/media/invoice-generator.png": "/static/media/invoice-generator.a43d81abeb9ad4d6a886.png",
+    "static/media/pg-life.png": "/static/media/pg-life.9cb057c563bfed92aff5.png",
+    "static/media/ATS.png": "/static/media/ATS.b39a35484cff39da96bc.png",
+    "index.html": "/index.html",
+    "main.c6d02138.js.map": "/static/js/main.c6d02138.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c6d02138.js"
+  ]
+}
