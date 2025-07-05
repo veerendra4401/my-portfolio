@@ -1,7 +1,7 @@
 import { 
     FaPython, FaJava, FaHtml5, FaCss3Alt, FaJs, FaReact, 
     FaDatabase, FaGitAlt, FaNode, FaDocker, FaAws,
-    FaFigma, FaTrello, FaJira, FaSlack
+    FaJira
 } from "react-icons/fa";
 import { 
     SiTailwindcss, SiExpress, SiMongodb, SiPostgresql,
@@ -52,11 +52,17 @@ export default function Skills() {
             { name: "Node.js", icon: <FaNode className="text-accent-success icon-glow" />, level: 90 },
             { name: "Express", icon: <SiExpress className="text-text-primary icon-glow" />, level: 85 },
             { name: "MongoDB", icon: <SiMongodb className="text-accent-success icon-glow" />, level: 85 },
+            { name: "MySQL", icon: <SiPostgresql className="text-accent-info icon-glow" />, level: 80 },
             { name: "Spring", icon: <SiSpring className="text-accent-success icon-glow" />, level: 75 }
         ],
         "DevOps & Tools": [
             { name: "Git", icon: <FaGitAlt className="text-accent-error icon-glow" />, level: 88 },
             { name: "Postman", icon: <SiPostman className="text-accent-warning icon-glow" />, level: 85 },
+            { name: "Jenkins", icon: <FaJira className="text-accent-info icon-glow" />, level: 80 },
+            { name: "Docker", icon: <FaDocker className="text-accent-info icon-glow" />, level: 85 },
+            { name: "ELK Stack", icon: <FaDatabase className="text-accent-warning icon-glow" />, level: 75 },
+            { name: "Amazon CloudWatch", icon: <FaAws className="text-accent-success icon-glow" />, level: 70 },
+            { name: "Containerization", icon: <FaDocker className="text-primary-color icon-glow" />, level: 80 },
         ]
     };
 

@@ -50,6 +50,16 @@ export default function Certifications() {
                 imgPath: "/assets/certificates/tcs.png",
                 skills: ["Professional Skills", "Career Development", "Industry Best Practices", "Leadership"]
             }
+        ],
+        "DevOps": [
+            {
+                title: "Certified DevOps Engineer",
+                issuer: "Great Learning",
+                date: "2025",
+                link: "https://www.mygreatlearning.com/certificate/BHKDJPYF",
+                imgPath: "/assets/certificates/dev.png",
+                skills: ["DevOps", "CI/CD", "Jenkins", "Docker", "Cloud", "Monitoring"]
+            }
         ]
     };
 
@@ -74,7 +84,7 @@ export default function Certifications() {
                                 </h3>
                                 <div className="flex-1 h-px bg-gray-200"></div>
                             </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                                 {certifications.map((cert, index) => (
                                     <div
                                         key={index}

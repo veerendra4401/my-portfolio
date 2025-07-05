@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import pgLifeImg from './assets/pg-life.png';
+import DashboardImg from './assets/Dashboard.png';
 import uniChatImg from './assets/uni-chat.png';
-import invoiceImg from './assets/invoice-generator.png';
+import KBImg from './assets/KB.PNG';
 import ATSImg from './assets/ATS.png';
 
 export default function Projects() {
@@ -10,11 +10,11 @@ export default function Projects() {
     const projects = [
         {
             id: 1,
-            title: 'PG-Life Web Application',
-            description: 'Welcome to the PG Life project! This project contains a web application designed to help users find and explore Paying Guest accommodations in major cities like Delhi, Mumbai, Bangalore, and Hyderabad.',
-            image: pgLifeImg,
-            link: 'https://github.com/veerendra4401/PG-Web-Application.git',
-            tech: ['React', 'Node.js', 'Express'],
+            title: 'Customer Satisfaction Survey Dashboard',
+            description: 'The Customer Satisfaction Survey Dashboard is a powerful and intuitive web-based platform designed to collect, visualize, and analyze customer feedback with ease. Gain real-time insights through dynamic dashboards and enhance your decision-making process.',
+            image: DashboardImg,
+            link: 'https://github.com/veerendra4401/customer-Satisfation-Survey-Dashboard-.git',
+            tech: ['React', 'Node.js', 'Springboot', 'MySQL', 'Axios', 'HTML/CSS	'],
         },
         {
             id: 2,
@@ -26,11 +26,27 @@ export default function Projects() {
         },
         {
             id: 3,
-            title: 'Bill/Invoice Generator',
-            description: 'This project simplifies billing by allowing users to add items, calculate totals, and generate invoices in PDF format.',
-            image: invoiceImg,
-            link: 'https://github.com/veerendra4401/Invoice-Generator.git',
-            tech: ['React', 'PDF Generation', 'JavaScript'],
+            title: 'Knowledge Base Platform',
+            description: 'A modern, Confluence-like knowledge base platform built with React, Express.js, and MySQL. This platform enables teams to create, collaborate, and organize their knowledge with powerful features like real-time editing, version control, and advanced privacy controls.',
+            image: KBImg,
+            link: 'https://github.com/veerendra4401/Frigga-Cloud-Labs.git',
+            tech: [
+                'React 18',
+                'TypeScript',
+                'React Router',
+                'React Quill',
+                'Tailwind CSS',
+                'Node.js',
+                'Express.js',
+                'MySQL',
+                'JWT',
+                'bcryptjs',
+                'Express Validator',
+                'CORS',
+                'Database:',
+                'MySQL 8.0+',
+
+            ],
         },
         {
             id: 4,
@@ -40,6 +56,7 @@ export default function Projects() {
             link: 'https://github.com/veerendra4401/ATS-Resume-Parser.git',
             tech: ['React', 'Java', 'JavaScript', 'Stanford NLP / Regex', 'Spring Boot', 'REST APIs', 'MySQL', 'Natural Language Processing (NLP)'],
         },
+        
     ];
 
     return (

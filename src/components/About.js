@@ -39,36 +39,6 @@ export default function About() {
                                     I enjoy experimenting with new technologies, building projects that solve real-world problems, and continuously expanding my knowledge in the ever-evolving world of web development.
                                 </p>
                             </div>
-
-                            {/* Skills Section */}
-                            <div className="space-y-6">
-                                <h3 className="text-2xl font-semibold text-gray-800">
-                                    Skills & Expertise
-                                </h3>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    {skills.map((skillGroup, index) => (
-                                        <div
-                                            key={index}
-                                            className="skill-card"
-                                        >
-                                            <h4 className="text-lg font-semibold text-gray-700 mb-4">
-                                                {skillGroup.category}
-                                            </h4>
-                                            <div className="flex flex-wrap gap-2">
-                                                {skillGroup.items.map((skill, i) => (
-                                                    <span
-                                                        key={i}
-                                                        className="px-3 py-1 text-sm rounded-full text-gray-700 hover:bg-primary-color/10 transition-all duration-300"
-                                                    >
-                                                        {skill}
-                                                    </span>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-
                             {/* Call to Action */}
                             <div className="flex flex-wrap gap-4 mt-8">
                                 <a
