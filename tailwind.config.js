@@ -28,8 +28,19 @@ module.exports = {
         'gradient-xy': 'gradient-xy 15s ease infinite',
         shine: 'shine 1.5s ease infinite',
         'text-shimmer': 'text-shimmer 2.5s ease-out infinite alternate',
+        'bounce-slow': 'bounce 3s ease-in-out infinite',
       },
       keyframes: {
+        bounce: {
+          '0%, 100%': {
+            transform: 'translateY(-5%)',
+            'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+            'animation-timing-function': 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        },
         blob: {
           "0%": {
             transform: "translate(0px, 0px) scale(1)",

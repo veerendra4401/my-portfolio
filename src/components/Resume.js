@@ -48,7 +48,7 @@ export default function Resume() {
                     </p>
                     <div className="mt-6">
                         <a
-                            href="https://drive.google.com/file/d/15dfHM1iaNcn39MSVdM9_ProrP1xr_V25/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1d32jRSNoR-k5LbV6a5Hm-Ap6gfHPPTVE/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-primary inline-flex items-center px-6 py-3 rounded-full text-black dark:text-white font-semibold transform hover:scale-105"

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import DashboardImg from './assets/Dashboard.png';
-import uniChatImg from './assets/uni-chat.png';
+import GitImg from './assets/Git.png';
 import KBImg from './assets/KB.PNG';
 import ATSImg from './assets/ATS.png';
 
@@ -18,11 +18,11 @@ export default function Projects() {
         },
         {
             id: 2,
-            title: 'Uni-Chat',
-            description: 'This project is a full-stack chat application designed for seamless real-time communication. The frontend is built with React.js, while the backend uses Node.js, Express.js, and Socket.IO for real-time messaging.',
-            image: uniChatImg,
-            link: 'https://github.com/veerendra4401/Uni-chat.git',
-            tech: ['React', 'Socket.IO', 'Node.js', 'Express', 'MongoDB'],
+            title: 'GitHub WebHook Monitor',
+            description: 'comprehensive full-stack web application that provides real-time monitoring and visualization of GitHub repository events. The system features a modern dark-mode UI, secure webhook processing, and persistent data storage, enabling teams to track repository activities including push events, pull requests, and merges with automated time zone handling and statistical analysis.',
+            image: GitImg,
+            link: 'https://github.com/veerendra4401/webhook-repo.git',
+            tech: ['React', 'Webhooks', 'Node.js', 'Python', 'Flask', 'MongoDB', 'GitHub Webhooks API', 'Ngrok'],
         },
         {
             id: 3,

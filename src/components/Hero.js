@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-
+import yourPhoto from './assets/your-photo.jpg';
 
 
 export default function Hero() {
@@ -88,15 +88,15 @@ export default function Hero() {
                     </div>
 
                     {/* Image */}
-                    <div className={`relative transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
-                        <div className="relative w-full max-w-lg mx-auto">
+                    <div className={`relative transform transition-all duration-1000 flex justify-center items-center ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
+                        <div className="relative w-full max-w-lg mx-auto flex justify-center items-center">
                             <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob" />
                             <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000" />
                             <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000" />
                             <img
-                                src="https://static.vecteezy.com/system/resources/previews/010/265/390/original/cute-3d-robot-say-hello-png.png"
-                                alt="Developer illustration"
-                                className="relative rounded-lg transform hover:scale-105 transition-transform duration-300"
+                                src={yourPhoto}
+                                alt="Thogiti Veerendra"
+                                className="relative rounded-full w-80 h-80 object-cover transform hover:scale-110 hover:rotate-6 transition-all duration-500 animate-bounce-slow"
                             />
                         </div>
                     </div>
